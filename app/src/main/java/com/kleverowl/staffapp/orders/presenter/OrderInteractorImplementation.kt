@@ -40,6 +40,7 @@ class OrderInteractorImplementation : ListOrdersInteractor {
                         item.orderStatus = OrderStatus.DELIVERED
                         item.deliveryDateTime = System.currentTimeMillis()
                         item.deliveryPhoneNumber = contactPersonInfo
+                        item.orderCompleted = "1"
                         dataSnapshot.ref.setValue(item)
                         orderFinishedListener.onDelivered("Order Delivered Successfully")
                     } else {
