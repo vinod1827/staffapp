@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "154941033519",
+    "firebase_url": "https://dynamicdistributors-769e7.firebaseio.com",
+    "project_id": "dynamicdistributors-769e7",
+    "storage_bucket": "dynamicdistributors-769e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154941033519:android:96789f8e4a7ce73684cada",
+        "android_client_info": {
+          "package_name": "com.kleverowl.customerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154941033519-2k1s66ou2egg57bluu1rg2m2gk55imv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kleverowl.customerapp",
+            "certificate_hash": "e120af5c83b35c3479b045007c4653cecff3daf3"
+          }
+        },
+        {
+          "client_id": "154941033519-tdb4oken4fh92mnebmkitvqknbu2de7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsIvwy5x-1J6JE5YSDrnhiiCJ4stZ96bA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154941033519-tdb4oken4fh92mnebmkitvqknbu2de7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154941033519:android:9132ae7a916c1d2384cada",
+        "android_client_info": {
+          "package_name": "com.kleverowl.plywoodadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154941033519-ql169ccujcd2l3l6m34frl2ojcoalbcq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kleverowl.plywoodadmin",
+            "certificate_hash": "e120af5c83b35c3479b045007c4653cecff3daf3"
+          }
+        },
+        {
+          "client_id": "154941033519-tdb4oken4fh92mnebmkitvqknbu2de7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsIvwy5x-1J6JE5YSDrnhiiCJ4stZ96bA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154941033519-tdb4oken4fh92mnebmkitvqknbu2de7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154941033519:android:d86d5a17e81ddb9d84cada",
+        "android_client_info": {
+          "package_name": "com.kleverowl.staffapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154941033519-a0cd2ni2i095oop46q0q7k0bm0u4tn2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kleverowl.staffapp",
+            "certificate_hash": "e120af5c83b35c3479b045007c4653cecff3daf3"
+          }
+        },
+        {
+          "client_id": "154941033519-tdb4oken4fh92mnebmkitvqknbu2de7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsIvwy5x-1J6JE5YSDrnhiiCJ4stZ96bA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154941033519-tdb4oken4fh92mnebmkitvqknbu2de7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

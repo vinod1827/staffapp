@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+
+
+
+    <com.kleverowl.plywoodadmin.components.TimelineView
+            android:id="@+id/timeline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:markerSize="20dp"
+            app:timelineWidth="25dp"
+            app:lineStyleDashLength="20dp"
+            app:startLineColor="#707070"
+            app:endLineColor="#707070"
+            app:lineOrientation="horizontal"
+            app:lineStyle="dash"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text_timeline_title"
+            android:ellipsize="end"
+            android:textColor="#757575"
+            tools:text="Order Successfully Completed"/>
+
+
+</LinearLayout>

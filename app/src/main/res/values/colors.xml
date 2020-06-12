@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="process_order_background">#3FC47B</color>
+    <color name="splash_screen_background">#f1f1f1</color>
+    <color name="white">#ffffff</color>
+    <color name="login_button_color">#615375</color>
+    <color name="background_yellow_line">#f9bf76</color>
+    <color name="password_hint_color">#615375</color>
+
+
+    <color name="colorBottomNavigationPrimary">#3F51B5</color>
+    <color name="colorBottomNavigationPrimaryDark">#303F9F</color>
+    <color name="colorBottomNavigationAccent">#FF4081</color>
+    <color name="colorBottomNavigationInactive">#747474</color>
+    <color name="colorBottomNavigationDisable">#3A000000</color>
+    <color name="colorBottomNavigationActiveColored">#FFFFFF</color>
+    <color name="colorBottomNavigationInactiveColored">#50FFFFFF</color>
+    <color name="colorBottomNavigationSelectedBackground">#17000000</color>
+    <color name="colorBottomNavigationNotification">#F63D2B</color>
+
+    <color name="bottom_background">#c4c4c4</color>
+    <color name="black">#000000</color>
+    <color name="toolbar_title">#5c5c5c</color>
+    <color name="account_item_color">#de000000</color>
+    <color name="add_catalogue_edit_text_background">#f1f1f1</color>
+    <color name="textCaption">#615375</color>
+    <color name="news_transparent_color">#b9b9b9</color>
+
+    <color name="background_toolbar">#f4f4f4</color>
+    <color name="search_color">#FAFAFA</color>
+    <color name="app_background">#fafafa</color>
+    <color name="status_bar_background">#E0E0E0</color>
+    <color name="catalogue_label">#fde8da</color>
+
+    <color name="toolbar_background">#00ffffff</color>
+    <color name="colorLightGray">#D8D8D8</color>
+    <color name="disabled_text_color">#707070</color>
+
+</resources>
