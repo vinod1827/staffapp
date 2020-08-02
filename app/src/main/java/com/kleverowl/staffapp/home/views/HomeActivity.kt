@@ -41,6 +41,8 @@ class HomeActivity : AppCompatActivity(),
     PastOrderFragment.PastOrderFragmentAttachedListener {
 
 
+    private var type: Int = StaffType.STAFF
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -48,15 +50,21 @@ class HomeActivity : AppCompatActivity(),
 
         supportActionBar!!.title = ""
 
+        type = PreferenceConnector.readInteger(this, TYPE, StaffType.STAFF)
+
+
         toolbarTitle.text = getString(R.string.your_orders)
         logoutButton.setOnClickListener {
             PreferenceConnector.remove(TYPE, this)
             PreferenceConnector.remove(USER_DETAILS, this)
+            if (type == StaffType.STAFF)
+                FirebaseMessaging.getInstance().unsubscribeFromTopic("staff") else
+                FirebaseMessaging.getInstance().unsubscribeFromTopic("delivery")
             FirebaseAuth.getInstance().signOut()
             navigateBackToSplash()
         }
 
-        val type = PreferenceConnector.readInteger(this, TYPE, StaffType.STAFF)
+
 
 
 
